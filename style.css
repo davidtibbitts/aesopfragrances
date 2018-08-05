@@ -1,10 +1,128 @@
-.hero-image{
-    background-image: url("Images/hwylheroimage.png");
+.hwylnavbar{
+    background-color:rgba(253, 245, 242, 0.8);
+    width:100%;
+    z-index:2;
+    position:fixed;
+    padding-top:8px;
+    padding-bottom:8px;
 }
 
-.hero-text{
-    text-align: left;
-    position: absolute;
-    top: 10%;
-    left: 10%;
+.jumbotron container{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.btn-primary{
+    background-color:#333333;
+    color:#FEFEF2;
+    border: solid #333333 2px;
+}
+
+.btn-primary:hover{
+    background-color:black;
+    color:#FEFEF2;
+    border: solid #333333 2px;
+}
+
+.jumbotron{
+    background-image: url("Images/hwylheroimage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 955px;
+    margin-bottom:0px;
+}
+
+.jumbotron h1{
+    margin-bottom:0px;
+}
+
+.perfumerquote{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color:#5E746F;
+    color:#FEFEF2;
+}
+
+.perfumerquote h1{
+    margin-bottom:20px;
+}
+
+.heavyline{
+    color:#333333;
+    background-color:#333333;
+    height: 4px;
+}
+
+.lightline{
+    color:#333333;
+    background-color:#333333;
+    height: 2px;
+}
+
+.btn-secondary{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:transparent;
+    color:#333333;
+    border:solid #333333 2px;
+    height:44px;
+}
+
+.btn-secondary:hover{
+    background-color:#333333;
+    color:#FEFEF2;
+    border:solid #333333 2px;
+}
+
+.fragrancenotes{
+    background-color:#D7DCDB;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.fragrancenotes img{
+    width: 100%;
+}
+
+.inspiration{
+    background-color:#9AA8A5;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.inspiration img{
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.visit{
+    background-color: white;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.visit img{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.closeicon{
+    position:fixed;
+    left:50%;
+    bottom:2%;
+    z-index: 1;
+}
+
+a{
+    color:#333333;
+}
+
+a:hover{
+    color:black;
 }
