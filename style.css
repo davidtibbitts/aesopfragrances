@@ -1,21 +1,21 @@
 @font-face {
     font-family: SuisseMedium;
-    src: url(./assets/Fonts/Suisse/suisseintl-medium.otf)
+    src: local('./assets/Fonts/Suisse/suisseintl-medium.otf')
 }
 
 @font-face {
     font-family: SuisseBold;
-    src: url(./assets/Fonts/Suisse/suisseintl-semibold.otf)
+    src: local('./assets/Fonts/Suisse/suisseintl-semibold.otf')
 }
 
 @font-face {
     font-family: SuisseNormal;
-    src: url(./assets/Fonts/Suisse/suisse-normal.otf)
+    src: local('./assets/Fonts/Suisse/suisse-normal.otf');
 }
 
 @font-face {
     font-family: ZapfHumanist;
-    src: url(./assets/Fonts/ZapfHumanist/324B1A_0_0.woff)
+    src: local('./assets/Fonts/ZapfHumanist/324B1A_0_0.woff');
 }
 
 .hwylnavbar{
@@ -58,7 +58,7 @@
 }
 
 .jumbotron{
-    background-image: url("assets/Images/hwylheroimage.png");
+    background-image: local("./assets/Images/hwylheroimage.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
