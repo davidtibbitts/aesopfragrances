@@ -1,10 +1,35 @@
+@font-face {
+    font-family: SuisseMedium;
+    src: url(./assets/Fonts/Suisse/suisseintl-medium.otf)
+}
+
+@font-face {
+    font-family: SuisseBold;
+    src: url(./assets/Fonts/Suisse/suisseintl-semibold.otf)
+}
+
+@font-face {
+    font-family: SuisseNormal;
+    src: url(./assets/Fonts/Suisse/suisse-normal.otf)
+}
+
+@font-face {
+    font-family: ZapfHumanist;
+    src: url(./assets/Fonts/ZapfHumanist/324B1A_0_0.woff)
+}
+
 .hwylnavbar{
     background-color:rgba(253, 245, 242, 0.8);
     width:100%;
     z-index:2;
     position:fixed;
-    padding-top:8px;
-    padding-bottom:8px;
+}
+
+.navbar-text{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: SuisseNormal, Helvetica, sans-serif;
+    font-size: 1.0rem;
 }
 
 .jumbotron container{
@@ -16,16 +41,24 @@
     background-color:#333333;
     color:#FEFEF2;
     border: solid #333333 2px;
+    font-family: SuisseNormal, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 0px;
+    height: 44px;
+    width: 100%;
+    align-content: center;
 }
 
 .btn-primary:hover{
     background-color:black;
     color:#FEFEF2;
-    border: solid #333333 2px;
+    border: solid black 2px;
 }
 
 .jumbotron{
-    background-image: url("Images/hwylheroimage.png");
+    background-image: url("assets/Images/hwylheroimage.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,6 +70,26 @@
     margin-bottom:0px;
 }
 
+.jumbotron p{
+    font-family: SuisseNormal, Helvetica, sans-serif;
+    font-size:1.0rem;
+}
+
+.jumbotron h4{
+    font-family: SuisseBold, Helvetica, sans-serif;
+    font-size:1.2rem;
+}
+
+.h1suisse{
+    font-family: SuisseBold, Helvetica, sans-serif;
+    font-size:3.0rem;
+}
+
+.h1zapf{
+    font-family: ZapfHumanist, Times New Roman, serif;
+    font-size:2.6rem;
+}
+
 .perfumerquote{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -46,6 +99,11 @@
 
 .perfumerquote h1{
     margin-bottom:20px;
+}
+
+.perfumerquote p{
+    font-family: SuisseMedium, Helvetica, sans-serif;
+    font-size:1.0rem;
 }
 
 .heavyline{
@@ -64,12 +122,16 @@
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     background-color:transparent;
     color:#333333;
     border:solid #333333 2px;
     height:44px;
+    border-radius:0px;
+    align-content: center;
+    font-family: SuisseNormal, Helvetica, sans-serif;
+    font-size:0.89rem;
 }
 
 .btn-secondary:hover{
@@ -78,10 +140,40 @@
     border:solid #333333 2px;
 }
 
+.btn-secondary:active{
+    background-color:black;
+    color:#fefef2;
+    border:solid black 2px;
+}
+
 .fragrancenotes{
-    background-color:#D7DCDB;
+    background-color:#fefef2;
     padding-top:40px;
     padding-bottom:40px;
+}
+
+.fragrancenotes h4{
+    font-family: SuisseBold, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom:0px;
+}
+
+.fragrancenotesdescription{
+    font-family:SuisseMedium, Helvetica, sans-serif;
+    color:#fefef2;
+}
+
+.card{
+    background-color:#333333;
+    color:#fefef2;
+    border-radius:8px;
+    padding:0px;
+    border: solid #333333 2px;
+    align-content:flex-start;
+    margin-top:10px;
+    min-height: 160px;
+    font-family: SuisseNormal, Helvetica, sans-serif;
+    font-size:0.9rem;
 }
 
 .fragrancenotes img{
@@ -100,10 +192,30 @@
     padding-bottom:20px;
 }
 
+.inspiration p{
+    font-family:SuisseMedium, Helvetica, sans-serif;
+    font-size:1.0rem;
+}
+
 .visit{
     background-color: white;
     padding-top:40px;
     padding-bottom:40px;
+}
+
+.visit h2{
+    font-family:SuisseMedium, Helvetica, sans-serif;
+    font-size:1.8rem;
+}
+
+.visit h4{
+    font-family:ZapfHumanist, Times New Roman, serif;
+    font-size:1.6rem;
+}
+
+.visit p{
+    font-family:SuisseMedium, Helvetica, sans-serif;
+    font-size:1.0rem;
 }
 
 .visit img{
@@ -114,13 +226,15 @@
 
 .closeicon{
     position:fixed;
-    left:50%;
+    left:47.5%;
     bottom:2%;
     z-index: 1;
 }
 
 a{
     color:#333333;
+    font-family:SuisseBold, Helvetica, sans-serif;
+    font-size:1.0rem;
 }
 
 a:hover{
